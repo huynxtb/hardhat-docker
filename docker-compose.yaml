@@ -1,0 +1,9 @@
+﻿version: "3.8"
+
+services:
+  halotro:
+    container_name: hardhat-network
+    restart: always
+    image: huynx11/hardhat:latest
+    ports:
+      - "8545:8545"
